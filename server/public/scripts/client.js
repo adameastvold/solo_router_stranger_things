@@ -2,6 +2,9 @@ var myApp = angular.module("myApp", ["ngRoute"]); //depency injection is what th
 
 myApp.config(["$routeProvider", function($routeProvider) {
     $routeProvider.
+    when("/home", {
+        templateUrl: "/views/partials/home.html"
+    }).
     when("/eleven", {
         templateUrl: "/views/partials/eleven.html",
         controller: "ElevenController"
@@ -15,7 +18,7 @@ myApp.config(["$routeProvider", function($routeProvider) {
         controller: "DustinController"
     }).
     otherwise({
-        redirectTo: "/eleven"
+        redirectTo: "/home"
     });
 }]);
 
