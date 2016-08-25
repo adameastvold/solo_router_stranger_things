@@ -48,6 +48,12 @@ body {
   background-size: cover;
 }
 
+.chief {
+  padding-bottom: 500px;
+  background-image: url("../images/chiefnohat.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 .footerContainer {
   color: red;
   text-align: center;
@@ -89,6 +95,7 @@ a {
 #elevenInfo {
   color: rgb(191,184,160);
   padding-left: 20px;
+  padding-right: 20px;
   margin-left: 200px;
   width: 35%;
   text-align: center;
@@ -105,4 +112,20 @@ a {
   height: 56px;
   margin-top: 5px;
   font-size: 12px;
+}
+
+#chiefInfo {
+  color: rgb(191,184,160);
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: 100px;
+  margin-top: 40px;
+  width: 35%;
+  text-align: center;
+  border: 1px solid white;
+}
+
+#chiefQuote {
+  font-style: italic;
+  font-size: 20px;
 }

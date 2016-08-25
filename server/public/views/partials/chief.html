@@ -1,11 +1,16 @@
 
-<div class="subjectContainer">
+<div class="subjectContainer chief">
 
-  <div class="imageBox"><img src="../images/chief.jpg" alt="Chief Jim Hopper" style="width:304px;height:228px;"></div>
+  <div id="chiefInfo">
 
-  <div class="content">
-<p>
-  The CHIEF
-</p>
-</div>
+  <h1>Chief Jim Hopper</h1>
+  <span id="chiefQuote">{{quote}}</span>
+  <h4>He is the Police Chief of the City of Hawkins and leads the investigation into the government agency behind the recent missing children.</h4>
+  <button ng-click="showme=true">If he had a spin off show, what would it be called?</button>
+
+
+      <div class="wrapper">
+          <h2 ng-show="showme"><img src="/images/rangerthings.png"></h2>
+      </div>
+  </div>
 </div>

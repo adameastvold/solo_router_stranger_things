@@ -29,6 +29,7 @@ myApp.controller("ElevenController", ["$scope", function($scope) {
 
 myApp.controller("ChiefController", ["$scope", function($scope) {
     console.log("chief workin");
+    $scope.quote = "'Mornings are for coffee and contemplation'";
 }]);
 
 myApp.controller("DustinController", ["$scope", function($scope) {
