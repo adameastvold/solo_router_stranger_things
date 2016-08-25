@@ -1,3 +1,9 @@
+@font-face {
+    font-family: spaceranger;
+    src: url('/styles/fonts/spaceranger.ttf');
+}
+
+
 .container {
 
   width: 100%;
@@ -9,11 +15,9 @@
   padding-top: 40px;
   padding-bottom: 40px;
   background-color: black;
-  font-size: 30px;
+  font-size: 60px;
+  font-family: spaceranger;
   color: red;
-  /*background-image: url("../images/stranger_things2.jpeg");*/
-  /*background-size: 300 500;*/
-  /*background-repeat: no-repeat;*/
   text-align: center;
 }
 
@@ -21,6 +25,7 @@
   border: 1px solid black;
   height: 50px;
   padding-top: 10px;
+  font-family: spaceranger;
   font-size: 30px;
   background-color: black;
 
@@ -45,7 +50,7 @@
   color: red;
   display: inline-block;
   margin-right: 10px;
-  border: 1px solid white;
+  /*border: 1px solid white;*/
 }
 
 .imageBox {
