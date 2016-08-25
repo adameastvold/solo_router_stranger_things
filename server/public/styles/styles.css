@@ -1,0 +1,66 @@
+.container {
+
+  width: 100%;
+  /*background-color: #443355;*/
+}
+
+.header {
+  width: 100%;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: black;
+  font-size: 30px;
+  color: red;
+  /*background-image: url("../images/stranger_things2.jpeg");*/
+  /*background-size: 300 500;*/
+  /*background-repeat: no-repeat;*/
+  text-align: center;
+}
+
+.navbar {
+  border: 1px solid black;
+  height: 50px;
+  padding-top: 10px;
+  font-size: 30px;
+  background-color: black;
+
+  text-align: center;
+}
+
+.subjectContainer {
+  margin-top: 40px;
+  text-align: center;
+  border: 1px solid black;
+}
+
+.footerContainer {
+  text-align: center;
+  border: 1px solid white;
+}
+
+.navbar {
+  margin-top: 125px;
+  color: red;
+}
+.navButton {
+  color: red;
+  display: inline-block;
+  margin-right: 30px;
+  border: 1px solid white;
+}
+
+.imageBox {
+  margin-top: 30px;
+  display: block;
+}
+
+.content {
+  display: inline-block;
+  margin: 10px auto 40px auto;
+  border: 1px solid white;
+}
+
+a {
+  color: red;
+  text-decoration: none;
+}
