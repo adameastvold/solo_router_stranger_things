@@ -3,6 +3,9 @@
     src: url('/styles/fonts/spaceranger.ttf');
 }
 
+body {
+  background-color: black;
+}
 
 .container {
 
@@ -33,14 +36,22 @@
 }
 
 .subjectContainer {
-  margin-top: 40px;
+  padding-top: 50px;
   text-align: center;
   border: 1px solid black;
 }
 
+.eleven {
+  padding-bottom: 500px;
+  background-image: url("../images/elevencoke.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .footerContainer {
+  color: red;
   text-align: center;
-  border: 1px solid white;
+  /*border: 1px solid white;*/
 }
 
 .navbar {
@@ -54,7 +65,14 @@
 }
 
 .imageBox {
-  display: block;
+  display: inline-block;
+}
+
+.homeimage {
+  padding-bottom: 900px;
+  background-image: url("../images/poster.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .content {
@@ -66,4 +84,25 @@
 a {
   color: red;
   text-decoration: none;
+}
+
+#elevenInfo {
+  color: rgb(191,184,160);
+  padding-left: 20px;
+  margin-left: 200px;
+  width: 35%;
+  text-align: center;
+  border: 1px solid white;
+}
+
+#elevenQuote {
+  font-style: italic;
+  font-size: 20px;
+}
+
+.wrapper {
+  /*border: 1px dashed #95a5a6;*/
+  height: 56px;
+  margin-top: 5px;
+  font-size: 12px;
 }

@@ -1,10 +1,16 @@
 
-<div class="subjectContainer">
+<div class="subjectContainer eleven">
 
-<div class="imageBox"><img src="../images/eleven.jpg" alt="eleven" style="width:304px;height:228px;"></div>
+<div id="elevenInfo">
 
-<div class="content">
+<h1>Eleven <span><em>AKA: El</em></span></h1>
+<span id="elevenQuote">{{quote}}</span>
+<h4>A young girl with psychokinetic abilities and a limited vocabulary.</h4>
+<button ng-click="showme=true">What's Eleven's favorite thing to eat?</button>
 
-<h1>{{message}}</h1>
+
+    <div class="wrapper">
+        <h2 ng-show="showme"><img src="/images/elevenwaffles.gif"></h2>
+    </div>
 </div>
 </div>

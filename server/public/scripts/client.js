@@ -24,7 +24,7 @@ myApp.config(["$routeProvider", function($routeProvider) {
 
 myApp.controller("ElevenController", ["$scope", function($scope) {
     console.log("eleven working");
-    $scope.message = "Eleven is awesome";
+    $scope.quote = "'The gate. I opened it. I'm the monster.'";
 }]);
 
 myApp.controller("ChiefController", ["$scope", function($scope) {
