@@ -1,11 +1,16 @@
 
-<div class="subjectContainer">
+<div class="subjectContainer dustin">
 
-<div class="imageBox"><img src="../images/dustin.jpg" alt="" style="width:304px;height:228px;"></div>
+  <div id="dustinInfo">
 
-    <div class="content">
-          <p>
-            Dustin is hilarious
-          </p>
-    </div>
+  <h1>Dustin</h1>
+  <span id="dustinQuote">{{quote}}</span>
+  <h4>If you were to wrap up The Goonies humor and put it in a character it would be this guy.</h4>
+  <button ng-click="showme=true">When going on an adventure what does Dustin pack?</button>
+
+
+      <div class="wrapper">
+          <h2 ng-show="showme"><img src="/images/dustinfood.gif"></h2>
+      </div>
+  </div>
 </div>

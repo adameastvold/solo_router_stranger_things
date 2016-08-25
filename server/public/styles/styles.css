@@ -54,6 +54,14 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+.dustin {
+  padding-bottom: 500px;
+  background-image: url("../images/dustinhat.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .footerContainer {
   color: red;
   text-align: center;
@@ -126,6 +134,22 @@ a {
 }
 
 #chiefQuote {
+  font-style: italic;
+  font-size: 20px;
+}
+
+#dustinInfo {
+  color: rgb(191,184,160);
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: 950px;
+  margin-top: 0px;
+  width: 35%;
+  text-align: center;
+  border: 1px solid white;
+}
+
+#dustinQuote {
   font-style: italic;
   font-size: 20px;
 }

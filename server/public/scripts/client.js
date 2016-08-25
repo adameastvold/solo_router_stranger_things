@@ -34,4 +34,5 @@ myApp.controller("ChiefController", ["$scope", function($scope) {
 
 myApp.controller("DustinController", ["$scope", function($scope) {
     console.log("super dustin");
+    $scope.quote = "'Why are you keeping this curiosity door locked?'";
 }]);
